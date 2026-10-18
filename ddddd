@@ -10,9 +10,27 @@ cout << "select the course: \n"
      << "1- Programing \n"
      << "2- Mathmatics \n"
      << "3- English \n"
-     << "choice:" << "
+     << "choice:" ;
+cin >> choice;
+
+switch (choice){
+    case 1:
+        cwWeight = 0.4;
+        examWeight = 0.6;
+        break;
+    case 2:
+        cwWeight = 0.3;
+        examWeight = 0.7;
+        break;
+    case 3:
+        cwWeight = 0.5;
+        examWeight = 0.5;
+        break;
+    default: {
+        cout << "Invalid course type" << endl;
+        return 0; }
+}    
 
 
-
-  
+return 0;  
 }
