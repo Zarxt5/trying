@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+int choice;
+double courseWork, examWork, finalGrade;
+double cwWeight = 0.0, examWeight = 0.0;
+
+cout << "select the course: \n"
+     << "1- Programing \n"
+     << "2- Mathmatics \n"
+     << "3- English \n"
+     << "choice:" << "
+
+
+
+  
+}
